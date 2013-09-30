@@ -1,53 +1,64 @@
-html, .container {
-  height: 100%;
+.container {
+  //height: 100%;
+  background: blue;
 }
 p {
   margin: 0;
 }
 
 body .container {
-padding-top: 120px;
-margin-top: 0;
+  padding-top: 120px;
+  margin-top: 0;
 }
 
 h1 {
-font-family: "freight-sans-pro","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
-font-weight: 700;
-letter-spacing: -1px;
+  font-family: "freight-sans-pro","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.main {
+  width: 80%;
+  margin: 0 auto;
+  background: yellow;
 }
 
 .content {
+  background: red;
   line-height: 1.4;
-  margin: 0 auto;
-font-family: "ff-tisa-web-pro",Georgia,Cambria,"Times New Roman",Times,serif;
-font-weight: 400;
-font-size: 22px;
-line-height: 1.45;
-position: relative;
-right 0;
+  font-family: "ff-tisa-web-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.45;
+  position: relative;
+  left: 163px;
+  width: 90%;
 }
 
 .about {
-    color: #333332;
-    display: block;
-    font-family: "freight-sans-pro","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1.2;
-}
-
-.about p {
-    font-family: "ff-tisa-web-pro",Georgia,Cambria,"Times New Roman",Times,serif;
-    font-weight: lighter;
-    font-style: italic;
-    font-size: 14px;
-    color:#b3b3b1;
-    line-height: 1.4;
-}
-
-.sidebar {
+  background: green;
+  color: #333332;
+  display: block;
+  font-family: "freight-sans-pro","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.2;
   padding-top: 0;
   position: relative;
   text-align: right;
   width: 160px;
+  float: left;
+}
+
+.about p {
+  font-family: "ff-tisa-web-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 14px;
+  color:#b3b3b1;
+  line-height: 1.4;
+}
+
+.sidebar {
+
 }
